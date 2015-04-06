@@ -1,0 +1,28 @@
+*************************
+DATABASE CREATION SCRIPT
+*************************
+
+-- Table: firstnames
+
+-- DROP TABLE firstnames;
+
+CREATE TABLE firstnames
+(
+  id bigint NOT NULL,
+  firstname character varying(255) DEFAULT NULL::character varying,
+  origin character varying(255) DEFAULT NULL::character varying,
+  meaning character varying(255) DEFAULT NULL::character varying,
+  gender character(1) DEFAULT NULL::character(1),
+  CONSTRAINT firstnames_pkey PRIMARY KEY (id)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE firstnames
+  OWNER TO postgres;
+
+*************************
+JOOQ GENERATOR COMMAND
+*************************
+
+java -classpath jooq-3.5.3.jar:jooq-meta-3.5.3.jar:jooq-codegen-3.5.3.jar:postgresql-9.3-1100-jdbc41.jar:. org.jooq.util.GenerationTool firstname-generator.xml
