@@ -1,1 +1,2 @@
-# baby-name-extractor
+# baby-firstname-extractor
+Running code: mvn exec:java
