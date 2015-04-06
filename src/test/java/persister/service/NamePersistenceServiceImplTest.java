@@ -1,6 +1,5 @@
 package persister.service;
 
-import org.jooq.DSLContext;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -11,7 +10,6 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import persister.model.FirstName;
 import persister.model.Gender;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import static junit.framework.Assert.assertEquals;
@@ -38,9 +36,6 @@ public class NamePersistenceServiceImplTest {
 
     @Autowired
     private NamePersistenceService namePersistenceService;
-
-    @Autowired
-    DSLContext create;
 
     @Before
     public void setup() {
