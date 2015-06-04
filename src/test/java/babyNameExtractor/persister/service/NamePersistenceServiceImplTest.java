@@ -1,4 +1,4 @@
-package persister.service;
+package babyNameExtractor.persister.service;
 
 import org.junit.After;
 import org.junit.Before;
@@ -7,8 +7,8 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import persister.model.FirstName;
-import persister.model.Gender;
+import babyNameExtractor.persister.model.FirstName;
+import babyNameExtractor.persister.model.Gender;
 
 import java.util.List;
 
@@ -20,8 +20,6 @@ import static junit.framework.Assert.assertNotNull;
 @ContextConfiguration(locations = {"/test-context.xml"})
 public class NamePersistenceServiceImplTest {
 
-    private static final Long ID_0 =  0l;
-    private static final Long ID_1 =  1l;
     private static final String FIRST_NAME_0 = "first_name_0";
     private static final String FIRST_NAME_1 = "first_name_1";
     private static final String MEANING_0 = "meaning_0";
@@ -40,14 +38,12 @@ public class NamePersistenceServiceImplTest {
     @Before
     public void setup() {
         firstName0 = new FirstName();
-        firstName0.setId(ID_0);
         firstName0.setFirstName(FIRST_NAME_0);
         firstName0.setMeaning(MEANING_0);
         firstName0.setOrigin(ORIGIN_0);
         firstName0.setGender(GENDER_0);
 
         firstName1 = new FirstName();
-        firstName1.setId(ID_1);
         firstName1.setFirstName(FIRST_NAME_1);
         firstName1.setMeaning(MEANING_1);
         firstName1.setOrigin(ORIGIN_1);
@@ -63,13 +59,11 @@ public class NamePersistenceServiceImplTest {
         assertNotNull(firstNamesFound);
         assertEquals(2, firstNamesFound.size());
 
-        assertEquals(ID_0, firstNamesFound.get(0).getId());
         assertEquals(FIRST_NAME_0, firstNamesFound.get(0).getFirstName());
         assertEquals(MEANING_0, firstNamesFound.get(0).getMeaning());
         assertEquals(ORIGIN_0, firstNamesFound.get(0).getOrigin());
         assertEquals(GENDER_0, firstNamesFound.get(0).getGender());
 
-        assertEquals(ID_1, firstNamesFound.get(1).getId());
         assertEquals(FIRST_NAME_1, firstNamesFound.get(1).getFirstName());
         assertEquals(MEANING_1, firstNamesFound.get(1).getMeaning());
         assertEquals(ORIGIN_1, firstNamesFound.get(1).getOrigin());
@@ -78,7 +72,9 @@ public class NamePersistenceServiceImplTest {
 
     @After
     public void tearDown() {
-        namePersistenceService.delete(firstName0);
-        namePersistenceService.delete(firstName1);
+        List<FirstName> firstNames = namePersistenceService.findAll();
+        for(FirstName firstName : firstNames){
+            namePersistenceService.delete(firstName);
+        }
     }
 }

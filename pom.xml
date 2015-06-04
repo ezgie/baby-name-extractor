@@ -10,9 +10,31 @@
     <properties>
         <org.springframework.version>4.1.6.RELEASE</org.springframework.version>
         <querydsl.version>3.6.3</querydsl.version>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
     </properties>
 
     <dependencies>
+
+        <!--JSON-->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.3.1</version>
+        </dependency>
+        <!--HTTP CLIENT-->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.4.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>fluent-hc</artifactId>
+            <version>4.4.1</version>
+        </dependency>
+
+        <!--HTMLUNIT-->
         <dependency>
             <groupId>net.sourceforge.htmlunit</groupId>
             <artifactId>htmlunit</artifactId>
@@ -101,7 +123,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>ExtractionManager</mainClass>
+                    <mainClass>babyNameExtractor.extractionManager.service.ExtractionManager</mainClass>
                 </configuration>
             </plugin>
 
@@ -119,10 +141,15 @@
                 <configuration>
                     <jdbcDriver>org.postgresql.Driver</jdbcDriver>
                     <jdbcUrl>jdbc:postgresql://localhost:5432/BabyNameExtractor</jdbcUrl>
-                    <packageName>persister.model.generated</packageName>
+                    <packageName>babyNameExtractor.persister.model.generated</packageName>
                     <targetFolder>${project.basedir}/target/generated-sources/java</targetFolder>
                 </configuration>
                 <dependencies>
+                    <dependency>
+                        <groupId>postgresql</groupId>
+                        <artifactId>postgresql</artifactId>
+                        <version>9.1-901-1.jdbc4</version>
+                    </dependency>
                 </dependencies>
             </plugin>
         </plugins>

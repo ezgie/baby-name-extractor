@@ -1,4 +1,4 @@
-package persister.service;
+package babyNameExtractor.persister.service;
 
 import com.mysema.query.Tuple;
 import com.mysema.query.sql.Configuration;
@@ -10,9 +10,10 @@ import com.mysema.query.sql.dml.SQLInsertClause;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import persister.model.FirstName;
-import persister.model.Gender;
-import persister.model.generated.QFirstnames;
+import org.springframework.stereotype.Service;
+import babyNameExtractor.persister.model.FirstName;
+import babyNameExtractor.persister.model.Gender;
+import babyNameExtractor.persister.model.generated.QFirstnames;
 
 import javax.sql.DataSource;
 import java.sql.Connection;
@@ -20,15 +21,14 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import static persister.model.generated.QFirstnames.firstnames;
+import static babyNameExtractor.persister.model.generated.QFirstnames.firstnames;
 
+@Service
 public class NamePersistenceServiceImpl implements NamePersistenceService {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(NamePersistenceServiceImpl.class);
 
     private Configuration configuration;
-
-    @Autowired
     private DataSource dataSource;
 
     public NamePersistenceServiceImpl() {
@@ -37,18 +37,25 @@ public class NamePersistenceServiceImpl implements NamePersistenceService {
     }
 
     @Override
+    public void persist(List<FirstName> firstNames) {
+
+        LOGGER.debug("Persisting '{}' names", firstNames.size());
+        for(FirstName firstName : firstNames){
+            persist(firstName);
+        }
+    }
+
+    @Override
     public void persist(FirstName firstname) {
 
+        LOGGER.debug("Persisting name '{}'", firstname);
         try(Connection connection = dataSource.getConnection()) {
             new SQLInsertClause(connection, configuration, QFirstnames.firstnames)
-                    .columns(QFirstnames.firstnames.id,
-                            QFirstnames.firstnames.firstname,
+                    .columns(QFirstnames.firstnames.firstname,
                             QFirstnames.firstnames.origin,
                             QFirstnames.firstnames.meaning,
                             QFirstnames.firstnames.gender)
-                    .values(
-                            firstname.getId(),
-                            firstname.getFirstName(),
+                    .values(firstname.getFirstName(),
                             firstname.getOrigin(),
                             firstname.getMeaning(),
                             firstname.getGender().getTitle())
@@ -60,7 +67,7 @@ public class NamePersistenceServiceImpl implements NamePersistenceService {
 
     @Override
     public List<FirstName> findAll() {
-        List<FirstName> firstNames = new ArrayList<FirstName >();
+        List<FirstName> firstNames = new ArrayList<>();
         try(Connection connection = dataSource.getConnection()){
             QFirstnames firstnames = new QFirstnames("f");
             SQLQuery query = new SQLQuery(connection, configuration);
@@ -95,5 +102,18 @@ public class NamePersistenceServiceImpl implements NamePersistenceService {
         } catch (SQLException e) {
             LOGGER.error(e.getMessage(), e);
         }
+    }
+
+    @Override
+    public void deleteAll() {
+        List<FirstName> firstNames = findAll();
+        for (FirstName firstName : firstNames){
+            delete(firstName);
+        }
+    }
+
+    @Autowired
+    public void setDataSource(DataSource dataSource) {
+        this.dataSource = dataSource;
     }
 }

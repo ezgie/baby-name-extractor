@@ -1,8 +1,8 @@
-package persister.model;
+package babyNameExtractor.persister.model;
 
 
 public class FirstName {
-    private Long id;
+    private Integer id;
     private String firstName;
     private Gender gender;
     private String origin;
@@ -24,11 +24,11 @@ public class FirstName {
         this.gender = gender;
     }
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -50,6 +50,6 @@ public class FirstName {
 
     @Override
     public String toString() {
-        return firstName + "-" + meaning + "-" + origin;
+        return firstName  + "-" + origin;
     }
 }

@@ -1,0 +1,1352 @@
+{
+    "took": 47,
+    "timed_out": false,
+    "_shards": {
+        "total": 5,
+        "successful": 5,
+        "failed": 0
+    },
+    "hits": {
+        "total": 8199,
+        "max_score": null,
+        "hits": [
+            {
+                "_index": "isimler_mapping",
+                "_type": "modelelasticisim",
+                "_id": "6dZxdOe6T_CecjYAyf4itQ",
+                "_score": null,
+                "_source": {
+                    "isimID": 1706,
+                    "ad": "Ecrin",
+                    "intCinsiyet": 0,
+                    "strKoken": "Arapça",
+                    "anlam": "Allah&#8217;ın hediyesi anlamını taşımaktadır.",
+                    "goruntulenmeSayisi": 1285237,
+                    "onerenSayisi": 22750,
+                    "onermeyenSayisi": 3315,
+                    "url": "kiz-isimleri/arapca/ecrin",
+                    "boolKurandaGeciyorMu": false,
+                    "kurandaGeciyorMu": "Hayır",
+                    "deger": 3.6686029143293393,
+                    "harf": "e",
+                    "koken": [
+                        {
+                            "kokenAdi": "Arapça"
+                        }
+                    ],
+                    "cinsiyet": [
+                        {
+                            "cinsiyetAdi": "Kız"
+                        }
+                    ]
+                },
+                "sort": [
+                    0.9997603845716466
+                ]
+            },
+            {
+                "_index": "isimler_mapping",
+                "_type": "modelelasticisim",
+                "_id": "gdRln8s4Rz2U2nQeDcwa0w",
+                "_score": null,
+                "_source": {
+                    "isimID": 2094,
+                    "ad": "Eymen",
+                    "intCinsiyet": 1,
+                    "strKoken": "Arapça",
+                    "anlam": "1. Daha uğurlu, çok talihli, hayırlı, kutlu. 2. Sağ taraftaki. Eymen b. Hureym:. Sahabedendir. Mekke'nin alınışı sırasında müslüman oldu. Babası ve amcası Bedir şehitlerindendir. Hadis rivayctiylc ün kazandı.",
+                    "goruntulenmeSayisi": 743483,
+                    "onerenSayisi": 11880,
+                    "onermeyenSayisi": 1819,
+                    "url": "erkek-isimleri/arapca/eymen",
+                    "boolKurandaGeciyorMu": false,
+                    "kurandaGeciyorMu": "Hayır",
+                    "deger": 3.6213040671400902,
+                    "harf": "e",
+                    "koken": [
+                        {
+                            "kokenAdi": "Arapça"
+                        }
+                    ],
+                    "cinsiyet": [
+                        {
+                            "cinsiyetAdi": "Erkek"
+                        }
+                    ]
+                },
+                "sort": [
+                    0.5226203503357003
+                ]
+            },
+            {
+                "_index": "isimler_mapping",
+                "_type": "modelelasticisim",
+                "_id": "Mi8JmYs5S16lHTMfmtbCIw",
+                "_score": null,
+                "_source": {
+                    "isimID": 1318,
+                    "ad": "Ceylin",
+                    "intCinsiyet": 0,
+                    "strKoken": "Farsça",
+                    "anlam": "Cennetin kapısı , cennete açılan kapı",
+                    "goruntulenmeSayisi": 689400,
+                    "onerenSayisi": 9555,
+                    "onermeyenSayisi": 1635,
+                    "url": "kiz-isimleri/farsca/ceylin",
+                    "boolKurandaGeciyorMu": false,
+                    "kurandaGeciyorMu": "Hayır",
+                    "deger": 3.6819964623548413,
+                    "harf": "c",
+                    "koken": [
+                        {
+                            "kokenAdi": "Farsça"
+                        }
+                    ],
+                    "cinsiyet": [
+                        {
+                            "cinsiyetAdi": "Kız"
+                        }
+                    ]
+                },
+                "sort": [
+                    0.4080739823117741
+                ]
+            },
+            {
+                "_index": "isimler_mapping",
+                "_type": "modelelasticisim",
+                "_id": "LBPOGd27TJu3twD7t_mNVg",
+                "_score": null,
+                "_source": {
+                    "isimID": 1683,
+                    "ad": "Ebrar",
+                    "intCinsiyet": 2,
+                    "strKoken": "Arapça",
+                    "anlam": "1. Hayır sahipleri. 2. İyiler, dindarlar, özü sözü doğru olanlar. Şeş Ebrar: Altı hayır sahibi, Hz. Ebu Bekir, Hz. Ömer, Hz. Osman, Hz. Ali, Hz. Hasan, Hz. Hüseyin.",
+                    "goruntulenmeSayisi": 549686,
+                    "onerenSayisi": 8139,
+                    "onermeyenSayisi": 1165,
+                    "url": "uniseks-isimler/arapca/ebrar",
+                    "boolKurandaGeciyorMu": true,
+                    "kurandaGeciyorMu": "Evet",
+                    "deger": 3.61704806339332,
+                    "harf": "e",
+                    "koken": [
+                        {
+                            "kokenAdi": "Arapça"
+                        }
+                    ],
+                    "cinsiyet": [
+                        {
+                            "cinsiyetAdi": "Üniseks"
+                        },
+                        {
+                            "cinsiyetAdi": "Erkek"
+                        },
+                        {
+                            "cinsiyetAdi": "Kız"
+                        }
+                    ]
+                },
+                "sort": [
+                    0.3721701003169665
+                ]
+            },
+            {
+                "_index": "isimler_mapping",
+                "_type": "modelelasticisim",
+                "_id": "AdPB5tkkSYaXej2aHF-QjQ",
+                "_score": null,
+                "_source": {
+                    "isimID": 6510,
+                    "ad": "Tuana",
+                    "intCinsiyet": 2,
+                    "strKoken": "Diğer",
+                    "anlam": "Cennet bahçesine düşen ilk yağmur damlası",
+                    "goruntulenmeSayisi": 509604,
+                    "onerenSayisi": 7858,
+                    "onermeyenSayisi": 1205,
+                    "url": "uniseks-isimler/diger/tuana",
+                    "boolKurandaGeciyorMu": false,
+                    "kurandaGeciyorMu": "Hayır",
+                    "deger": 3.7279512020093288,
+                    "harf": "t",
+                    "koken": [
+                        {
+                            "kokenAdi": "Diğer"
+                        }
+                    ],
+                    "cinsiyet": [
+                        {
+                            "cinsiyetAdi": "Üniseks"
+                        },
+                        {
+                            "cinsiyetAdi": "Erkek"
+                        },
+                        {
+                            "cinsiyetAdi": "Kız"
+                        }
+                    ]
+                },
+                "sort": [
+                    0.35234679601004665
+                ]
+            },
+            {
+                "_index": "isimler_mapping",
+                "_type": "modelelasticisim",
+                "_id": "ULSP8UqyQIu9rbOENqhZog",
+                "_score": null,
+                "_source": {
+                    "isimID": 7502,
+                    "ad": "Esila",
+                    "intCinsiyet": 0,
+                    "strKoken": "Arapça",
+                    "anlam": "Esila kuran da geçen arapça bir kelimedir ve geçtiği yer ile anlamı şöyledir:\r\n\r\n\"vezkur isme Rabbike bukreten ve esîla - Rabbinin adını sabah akşam an.\" buyurulmaktadır. Burada geçen \"bukra\" Arapça&#8217;da sabah demektir. \"esila\" ise zeval vaktinden gurup vaktine kadar demektir. Bu, öğle namazı ile ikindi namazını kapsar. Ondan sonraki \"Geceleyin ona secde et\" buyurulmaktadır. Yani gurûb&#8217;tan başlayarak gece vaktinde secde etmesi istenmektedir. Bu da akşam ve yatsı namazını kapsar. Hemen peşinde de \"Onu geceleri uzun uzun tesbih edin\" denilmiştir. Bundan da teheccüt namazına atıfta bulunulmuştur. (İnsan suresi 25. ayet)",
+                    "goruntulenmeSayisi": 844232,
+                    "onerenSayisi": 7777,
+                    "onermeyenSayisi": 1723,
+                    "url": "kiz-isimleri/arapca/esila",
+                    "boolKurandaGeciyorMu": false,
+                    "kurandaGeciyorMu": "Hayır",
+                    "deger": 3.5350954156613295,
+                    "harf": "e",
+                    "koken": [
+                        {
+                            "kokenAdi": "Arapça"
+                        }
+                    ],
+                    "cinsiyet": [
+                        {
+                            "cinsiyetAdi": "Kız"
+                        }
+                    ]
+                },
+                "sort": [
+                    0.2988297970783066
+                ]
+            },
+            {
+                "_index": "isimler_mapping",
+                "_type": "modelelasticisim",
+                "_id": "OXZuo9DVQwaY4dI0F_MRfg",
+                "_score": null,
+                "_source": {
+                    "isimID": 2063,
+                    "ad": "Esra",
+                    "intCinsiyet": 0,
+                    "strKoken": "Arapça",
+                    "anlam": "Daha hızlı, daha çabuk, en çabuk. Karanlıkta yol gösteren, anlamlarını taşır.",
+                    "goruntulenmeSayisi": 280440,
+                    "onerenSayisi": 6677,
+                    "onermeyenSayisi": 1086,
+                    "url": "kiz-isimleri/arapca/esra",
+                    "boolKurandaGeciyorMu": false,
+                    "kurandaGeciyorMu": "Hayır",
+                    "deger": 3.8299789726644637,
+                    "harf": "e",
+                    "koken": [
+                        {
+                            "kokenAdi": "Arapça"
+                        }
+                    ],
+                    "cinsiyet": [
+                        {
+                            "cinsiyetAdi": "Kız"
+                        }
+                    ]
+                },
+                "sort": [
+                    0.29502929486332224
+                ]
+            },
+            {
+                "_index": "isimler_mapping",
+                "_type": "modelelasticisim",
+                "_id": "QRhF-k4CRSCdMXisO3-LOQ",
+                "_score": null,
+                "_source": {
+                    "isimID": 1825,
+                    "ad": "Enes",
+                    "intCinsiyet": 1,
+                    "strKoken": "Arapça",
+                    "anlam": "1. İnsan. 2. Enes b. Malik: (Basra 709). Rasûlullah (s.a.s)'den çok hadis nakleden sahabelerdendir. Hicretten sonra annesi onu, 10 yaşındayken Rasûlullah (s.a.s)'ın hizmetine vermiştir. Rasûlullah (s.a.s)'ın vefatına kadar yanında kalmıştır. 97-107 yaşına kadar yaşadığı rivayet edilmektedir.",
+                    "goruntulenmeSayisi": 313943,
+                    "onerenSayisi": 5567,
+                    "onermeyenSayisi": 630,
+                    "url": "erkek-isimleri/arapca/enes",
+                    "boolKurandaGeciyorMu": false,
+                    "kurandaGeciyorMu": "Hayır",
+                    "deger": 3.7704918032786887,
+                    "harf": "e",
+                    "koken": [
+                        {
+                            "kokenAdi": "Arapça"
+                        }
+                    ],
+                    "cinsiyet": [
+                        {
+                            "cinsiyetAdi": "Erkek"
+                        }
+                    ]
+                },
+                "sort": [
+                    0.2769408890163934
+                ]
+            },
+            {
+                "_index": "isimler_mapping",
+                "_type": "modelelasticisim",
+                "_id": "YLUK6jSUTCqetEdX3LiuWg",
+                "_score": null,
+                "_source": {
+                    "isimID": 6170,
+                    "ad": "Talha",
+                    "intCinsiyet": 1,
+                    "strKoken": "Arapça",
+                    "anlam": "1. Zamk ağacı. 2. Talha b. Ubeydullah. İslam dinini kabul eden ilk 10 kişiden biri, cennetle müjdelenmiştir.",
+                    "goruntulenmeSayisi": 304166,
+                    "onerenSayisi": 5422,
+                    "onermeyenSayisi": 609,
+                    "url": "erkek-isimleri/arapca/talha",
+                    "boolKurandaGeciyorMu": false,
+                    "kurandaGeciyorMu": "Hayır",
+                    "deger": 3.6721044045677,
+                    "harf": "t",
+                    "koken": [
+                        {
+                            "kokenAdi": "Arapça"
+                        }
+                    ],
+                    "cinsiyet": [
+                        {
+                            "cinsiyetAdi": "Erkek"
+                        }
+                    ]
+                },
+                "sort": [
+                    0.2701651820228385
+                ]
+            },
+            {
+                "_index": "isimler_mapping",
+                "_type": "modelelasticisim",
+                "_id": "d1_sUWwTQ4GUtlXjTK1mKQ",
+                "_score": null,
+                "_source": {
+                    "isimID": 4570,
+                    "ad": "Ömer",
+                    "intCinsiyet": 1,
+                    "strKoken": "Arapça",
+                    "anlam": " İslam Devleti'nin II. Halifesi Ömer b. Hattab. Dünya durdukça adaletinden dolayı ondan bahsedilecek. Cennetle müjdelenmiştir. Hak ile Batılı çok iyi ayırt edebilen bir alim olduğu için Ömeru'1-Faruk adını almıştır",
+                    "goruntulenmeSayisi": 242147,
+                    "onerenSayisi": 5247,
+                    "onermeyenSayisi": 528,
+                    "url": "erkek-isimleri/arapca/omer",
+                    "boolKurandaGeciyorMu": false,
+                    "kurandaGeciyorMu": "Hayır",
+                    "deger": 3.7912937700929707,
+                    "harf": "ö",
+                    "koken": [
+                        {
+                            "kokenAdi": "Arapça"
+                        }
+                    ],
+                    "cinsiyet": [
+                        {
+                            "cinsiyetAdi": "Erkek"
+                        }
+                    ]
+                },
+                "sort": [
+                    0.26818493885046485
+                ]
+            },
+            {
+                "_index": "isimler_mapping",
+                "_type": "modelelasticisim",
+                "_id": "JFCmWYyeS8yfnCIMSPev6A",
+                "_score": null,
+                "_source": {
+                    "isimID": 6133,
+                    "ad": "Taha",
+                    "intCinsiyet": 1,
+                    "strKoken": "Arapça",
+                    "anlam": " Kur'an-ı Kerim'in 20. suresi. - Hz. Ömer'e müslüman olmadan önce okunan ilk sure. Hz. Ömer bu sureden etkilenmiş ve müslüman olmuştur",
+                    "goruntulenmeSayisi": 287853,
+                    "onerenSayisi": 5151,
+                    "onermeyenSayisi": 528,
+                    "url": "erkek-isimleri/arapca/taha",
+                    "boolKurandaGeciyorMu": false,
+                    "kurandaGeciyorMu": "Hayır",
+                    "deger": 3.6769911504424777,
+                    "harf": "t",
+                    "koken": [
+                        {
+                            "kokenAdi": "Arapça"
+                        }
+                    ],
+                    "cinsiyet": [
+                        {
+                            "cinsiyetAdi": "Erkek"
+                        }
+                    ]
+                },
+                "sort": [
+                    0.26259848575221234
+                ]
+            },
+            {
+                "_index": "isimler_mapping",
+                "_type": "modelelasticisim",
+                "_id": "YnTXXYh1Q_WCWHdysZbwtw",
+                "_score": null,
+                "_source": {
+                    "isimID": 7422,
+                    "ad": "Zeynep",
+                    "intCinsiyet": 0,
+                    "strKoken": "Türkçe",
+                    "anlam": "Değerli taşlar, mücevher",
+                    "goruntulenmeSayisi": 350048,
+                    "onerenSayisi": 5128,
+                    "onermeyenSayisi": 659,
+                    "url": "kiz-isimleri/turkce/zeynep",
+                    "boolKurandaGeciyorMu": false,
+                    "kurandaGeciyorMu": "Hayır",
+                    "deger": 3.924961927177073,
+                    "harf": "z",
+                    "koken": [
+                        {
+                            "kokenAdi": "Türkçe"
+                        }
+                    ],
+                    "cinsiyet": [
+                        {
+                            "cinsiyetAdi": "Kız"
+                        }
+                    ]
+                },
+                "sort": [
+                    0.2501802896358854
+                ]
+            },
+            {
+                "_index": "isimler_mapping",
+                "_type": "modelelasticisim",
+                "_id": "v9IaiBzmRSa9c6M_xCT6XA",
+                "_score": null,
+                "_source": {
+                    "isimID": 3704,
+                    "ad": "Merve",
+                    "intCinsiyet": 0,
+                    "strKoken": "Arapça",
+                    "anlam": "Mekke&#8217;de bir dağın adı olup hacılar, Merve ile Safa arasında Sa&#8217;y ederler yani 7 defa gidip gelirler. Kur&#8217;an-ı Kerim&#8217;de bakara suresi 158. ayet&#8217;te geçmektedir.",
+                    "goruntulenmeSayisi": 314223,
+                    "onerenSayisi": 5345,
+                    "onermeyenSayisi": 807,
+                    "url": "kiz-isimleri/arapca/merve",
+                    "boolKurandaGeciyorMu": true,
+                    "kurandaGeciyorMu": "Evet",
+                    "deger": 3.8527046048662781,
+                    "harf": "m",
+                    "koken": [
+                        {
+                            "kokenAdi": "Arapça"
+                        }
+                    ],
+                    "cinsiyet": [
+                        {
+                            "cinsiyetAdi": "Kız"
+                        }
+                    ]
+                },
+                "sort": [
+                    0.2471777530243314
+                ]
+            },
+            {
+                "_index": "isimler_mapping",
+                "_type": "modelelasticisim",
+                "_id": "b1MrWlCKQgGNdhrFOYNhIA",
+                "_score": null,
+                "_source": {
+                    "isimID": 1175,
+                    "ad": "Büşra",
+                    "intCinsiyet": 0,
+                    "strKoken": "Arapça",
+                    "anlam": " Müjde, sevinçli haber",
+                    "goruntulenmeSayisi": 290256,
+                    "onerenSayisi": 5217,
+                    "onermeyenSayisi": 795,
+                    "url": "kiz-isimleri/arapca/busra",
+                    "boolKurandaGeciyorMu": false,
+                    "kurandaGeciyorMu": "Hayır",
+                    "deger": 3.834818445087993,
+                    "harf": "b",
+                    "koken": [
+                        {
+                            "kokenAdi": "Arapça"
+                        }
+                    ],
+                    "cinsiyet": [
+                        {
+                            "cinsiyetAdi": "Kız"
+                        }
+                    ]
+                },
+                "sort": [
+                    0.24074065222543997
+                ]
+            },
+            {
+                "_index": "isimler_mapping",
+                "_type": "modelelasticisim",
+                "_id": "qQY7wzhqSei9GAR5Apw_JA",
+                "_score": null,
+                "_source": {
+                    "isimID": 3809,
+                    "ad": "Muhammed",
+                    "intCinsiyet": 1,
+                    "strKoken": "Arapça",
+                    "anlam": "1. Birçok defalar hamdu sena olunmuş, tekrar tekrar övülmüş. 2. Birçok güzel huylara sahip. Hz. Peygamber (s.a.s)'in isimlerindendir. Dedesi Abdülmuttalib tarafından, gökte hak yerde halk övsün niyetiyle bu ad konulmuştur. Kur'an'da dört yerde zikredilmiştir.",
+                    "goruntulenmeSayisi": 155068,
+                    "onerenSayisi": 4256,
+                    "onermeyenSayisi": 374,
+                    "url": "erkek-isimleri/arapca/muhammed",
+                    "boolKurandaGeciyorMu": false,
+                    "kurandaGeciyorMu": "Hayır",
+                    "deger": 4.361439010680157,
+                    "harf": "m",
+                    "koken": [
+                        {
+                            "kokenAdi": "Arapça"
+                        }
+                    ],
+                    "cinsiyet": [
+                        {
+                            "cinsiyetAdi": "Erkek"
+                        }
+                    ]
+                },
+                "sort": [
+                    0.22892387505340075
+                ]
+            },
+            {
+                "_index": "isimler_mapping",
+                "_type": "modelelasticisim",
+                "_id": "imsr3jsaRyO2yMNgIPdJPA",
+                "_score": null,
+                "_source": {
+                    "isimID": 3406,
+                    "ad": "Kübra",
+                    "intCinsiyet": 0,
+                    "strKoken": "Arapça",
+                    "anlam": "1. Büyük olan (Ekber'in müennesi). 2. Hadicetü'l-Kübra: Hz. Peygamberin ilk hanımı.",
+                    "goruntulenmeSayisi": 251220,
+                    "onerenSayisi": 4584,
+                    "onermeyenSayisi": 618,
+                    "url": "kiz-isimleri/arapca/kubra",
+                    "boolKurandaGeciyorMu": true,
+                    "kurandaGeciyorMu": "Evet",
+                    "deger": 3.8866408806902708,
+                    "harf": "k",
+                    "koken": [
+                        {
+                            "kokenAdi": "Arapça"
+                        }
+                    ],
+                    "cinsiyet": [
+                        {
+                            "cinsiyetAdi": "Kız"
+                        }
+                    ]
+                },
+                "sort": [
+                    0.22205140440345134
+                ]
+            },
+            {
+                "_index": "isimler_mapping",
+                "_type": "modelelasticisim",
+                "_id": "Y905kMq0ToCWqYUeoP9i4w",
+                "_score": null,
+                "_source": {
+                    "isimID": 980,
+                    "ad": "Berra",
+                    "intCinsiyet": 2,
+                    "strKoken": "Arapça",
+                    "anlam": " Doğru sözlü, hayır işleyen kimse",
+                    "goruntulenmeSayisi": 340588,
+                    "onerenSayisi": 4574,
+                    "onermeyenSayisi": 645,
+                    "url": "uniseks-isimler/arapca/berra",
+                    "boolKurandaGeciyorMu": false,
+                    "kurandaGeciyorMu": "Hayır",
+                    "deger": 3.6366268967913817,
+                    "harf": "b",
+                    "koken": [
+                        {
+                            "kokenAdi": "Arapça"
+                        }
+                    ],
+                    "cinsiyet": [
+                        {
+                            "cinsiyetAdi": "Üniseks"
+                        },
+                        {
+                            "cinsiyetAdi": "Erkek"
+                        },
+                        {
+                            "cinsiyetAdi": "Kız"
+                        }
+                    ]
+                },
+                "sort": [
+                    0.2184520144839569
+                ]
+            },
+            {
+                "_index": "isimler_mapping",
+                "_type": "modelelasticisim",
+                "_id": "E8Qrgto7R66K1PaNB6hr-A",
+                "_score": null,
+                "_source": {
+                    "isimID": 1808,
+                    "ad": "Emir",
+                    "intCinsiyet": 1,
+                    "strKoken": "Arapça",
+                    "anlam": "1. Bir kavmin, bir şehrin başı. 2. Büyük bir hanedana mensup kimse. 3. Peygamberimizin soyundan gelen. 4. Kumandan. 5. Abbasi devletinde başkomutan. 6. Osmanlı devletinde beylerbeyi ve Tanzimat'tan sonra sivil paşalığın ilk derecesi.",
+                    "goruntulenmeSayisi": 268563,
+                    "onerenSayisi": 4323,
+                    "onermeyenSayisi": 514,
+                    "url": "erkek-isimleri/arapca/emir",
+                    "boolKurandaGeciyorMu": false,
+                    "kurandaGeciyorMu": "Hayır",
+                    "deger": 3.8352515090543258,
+                    "harf": "e",
+                    "koken": [
+                        {
+                            "kokenAdi": "Arapça"
+                        }
+                    ],
+                    "cinsiyet": [
+                        {
+                            "cinsiyetAdi": "Erkek"
+                        }
+                    ]
+                },
+                "sort": [
+                    0.21738688754527163
+                ]
+            },
+            {
+                "_index": "isimler_mapping",
+                "_type": "modelelasticisim",
+                "_id": "d-f9MjLTTmWXzGY-cvmzHQ",
+                "_score": null,
+                "_source": {
+                    "isimID": 6523,
+                    "ad": "Tuğçe",
+                    "intCinsiyet": 0,
+                    "strKoken": "Arapça",
+                    "anlam": "Cennetteki Tuğba ağacı&#8217;nın dallarına verilen ad.",
+                    "goruntulenmeSayisi": 206678,
+                    "onerenSayisi": 4284,
+                    "onermeyenSayisi": 557,
+                    "url": "kiz-isimleri/arapca/tugce",
+                    "boolKurandaGeciyorMu": false,
+                    "kurandaGeciyorMu": "Hayır",
+                    "deger": 4.1108273748723185,
+                    "harf": "t",
+                    "koken": [
+                        {
+                            "kokenAdi": "Arapça"
+                        }
+                    ],
+                    "cinsiyet": [
+                        {
+                            "cinsiyetAdi": "Kız"
+                        }
+                    ]
+                },
+                "sort": [
+                    0.21166591687436156
+                ]
+            },
+            {
+                "_index": "isimler_mapping",
+                "_type": "modelelasticisim",
+                "_id": "QYxzWuteT2KU9Xg3cGHo_A",
+                "_score": null,
+                "_source": {
+                    "isimID": 2974,
+                    "ad": "İrem",
+                    "intCinsiyet": 2,
+                    "strKoken": "Arapça",
+                    "anlam": "1. Cennet bahçesi. 2. Ok veya kurşun atılan nişan tahtası. 3. Cenk denilen musiki aleti ve bunu icad edenin adı. 4. Ad kavmi zamanında, Şeddad tarafından cennete benzetilme amacıyla yapılan bahçe olup, Şam&#8217;da veya Yemen&#8217;de bulunduğu söylenir. Kur&#8217;an-ı Kerim&#8217;de\r\nFecr Suresinde Geçmektedir.",
+                    "goruntulenmeSayisi": 321419,
+                    "onerenSayisi": 4855,
+                    "onermeyenSayisi": 962,
+                    "url": "uniseks-isimler/arapca/irem",
+                    "boolKurandaGeciyorMu": true,
+                    "kurandaGeciyorMu": "Evet",
+                    "deger": 3.7942099755842342,
+                    "harf": "i",
+                    "koken": [
+                        {
+                            "kokenAdi": "Arapça"
+                        }
+                    ],
+                    "cinsiyet": [
+                        {
+                            "cinsiyetAdi": "Üniseks"
+                        },
+                        {
+                            "cinsiyetAdi": "Erkek"
+                        },
+                        {
+                            "cinsiyetAdi": "Kız"
+                        }
+                    ]
+                },
+                "sort": [
+                    0.20368223987792114
+                ]
+            },
+            {
+                "_index": "isimler_mapping",
+                "_type": "modelelasticisim",
+                "_id": "RYfPI_5RQSa5z5SpdNe_ag",
+                "_score": null,
+                "_source": {
+                    "isimID": 7749,
+                    "ad": "Rümeysa",
+                    "intCinsiyet": 0,
+                    "strKoken": "Arapça",
+                    "anlam": "1. Küçükköpek Takımyıldızı&#8217;nda en büyük yıldızın adı.\r\n\r\n2. Oğlunu peygamberimize hizmetçi olarak veren kadın sahabelerden birinin adı.",
+                    "goruntulenmeSayisi": 246416,
+                    "onerenSayisi": 4315,
+                    "onermeyenSayisi": 745,
+                    "url": "kiz-isimleri/arapca/rumeysa",
+                    "boolKurandaGeciyorMu": false,
+                    "kurandaGeciyorMu": "Hayır",
+                    "deger": 3.8567612687813022,
+                    "harf": "r",
+                    "koken": [
+                        {
+                            "kokenAdi": "Arapça"
+                        }
+                    ],
+                    "cinsiyet": [
+                        {
+                            "cinsiyetAdi": "Kız"
+                        }
+                    ]
+                },
+                "sort": [
+                    0.19394796634390646
+                ]
+            },
+            {
+                "_index": "isimler_mapping",
+                "_type": "modelelasticisim",
+                "_id": "1Y9XjldcT4ayt_g3_CiNYg",
+                "_score": null,
+                "_source": {
+                    "isimID": 362,
+                    "ad": "Alperen",
+                    "intCinsiyet": 1,
+                    "strKoken": "Türkçe",
+                    "anlam": " Yiğit, bahadır",
+                    "goruntulenmeSayisi": 149227,
+                    "onerenSayisi": 3667,
+                    "onermeyenSayisi": 415,
+                    "url": "erkek-isimleri/turkce/alperen",
+                    "boolKurandaGeciyorMu": false,
+                    "kurandaGeciyorMu": "Hayır",
+                    "deger": 3.8260204081632652,
+                    "harf": "a",
+                    "koken": [
+                        {
+                            "kokenAdi": "Türkçe"
+                        }
+                    ],
+                    "cinsiyet": [
+                        {
+                            "cinsiyetAdi": "Erkek"
+                        }
+                    ]
+                },
+                "sort": [
+                    0.18855637204081632
+                ]
+            },
+            {
+                "_index": "isimler_mapping",
+                "_type": "modelelasticisim",
+                "_id": "l6GEJDmCQLKzpPZqd0F49w",
+                "_score": null,
+                "_source": {
+                    "isimID": 1025,
+                    "ad": "Beyza",
+                    "intCinsiyet": 0,
+                    "strKoken": "Arapça",
+                    "anlam": "1. Daha ak, çok beyaz. 2. Günahtan kaçınmış. Günahla kirlenmemiş.",
+                    "goruntulenmeSayisi": 226115,
+                    "onerenSayisi": 3814,
+                    "onermeyenSayisi": 552,
+                    "url": "kiz-isimleri/arapca/beyza",
+                    "boolKurandaGeciyorMu": false,
+                    "kurandaGeciyorMu": "Hayır",
+                    "deger": 4.0717997165800659,
+                    "harf": "b",
+                    "koken": [
+                        {
+                            "kokenAdi": "Arapça"
+                        }
+                    ],
+                    "cinsiyet": [
+                        {
+                            "cinsiyetAdi": "Kız"
+                        }
+                    ]
+                },
+                "sort": [
+                    0.1853701485829003
+                ]
+            },
+            {
+                "_index": "isimler_mapping",
+                "_type": "modelelasticisim",
+                "_id": "wp2jHT4aTU6eevU6In9Beg",
+                "_score": null,
+                "_source": {
+                    "isimID": 193,
+                    "ad": "Ahmet",
+                    "intCinsiyet": 1,
+                    "strKoken": "Arapça",
+                    "anlam": "Övülmeye değer/ Beğenilmiş / Allah'a şükreden",
+                    "goruntulenmeSayisi": 211629,
+                    "onerenSayisi": 3340,
+                    "onermeyenSayisi": 349,
+                    "url": "erkek-isimleri/arapca/ahmet",
+                    "boolKurandaGeciyorMu": false,
+                    "kurandaGeciyorMu": "Hayır",
+                    "deger": 3.7714396585176564,
+                    "harf": "a",
+                    "koken": [
+                        {
+                            "kokenAdi": "Arapça"
+                        }
+                    ],
+                    "cinsiyet": [
+                        {
+                            "cinsiyetAdi": "Erkek"
+                        }
+                    ]
+                },
+                "sort": [
+                    0.17680248829258827
+                ]
+            },
+            {
+                "_index": "isimler_mapping",
+                "_type": "modelelasticisim",
+                "_id": "LVzR3dXiQ1iDBePVg-VzqQ",
+                "_score": null,
+                "_source": {
+                    "isimID": 1793,
+                    "ad": "Elif",
+                    "intCinsiyet": 0,
+                    "strKoken": "Arapça",
+                    "anlam": "1. İslami alfabenin ilk harfi. Ebccd hesabında değeri birdir. 2. Musikide \"la\" notasını ifade için kullanılır. 3. Ülfet eden, dost, tanıdık. 4. Alışmış, alışkın, alışık. - İki kelimeli isimler yapılabilir (Elif Beyza, Elif Nur v.s.).",
+                    "goruntulenmeSayisi": 265444,
+                    "onerenSayisi": 3512,
+                    "onermeyenSayisi": 495,
+                    "url": "kiz-isimleri/arapca/elif",
+                    "boolKurandaGeciyorMu": false,
+                    "kurandaGeciyorMu": "Hayır",
+                    "deger": 3.899700385219004,
+                    "harf": "e",
+                    "koken": [
+                        {
+                            "kokenAdi": "Arapça"
+                        }
+                    ],
+                    "cinsiyet": [
+                        {
+                            "cinsiyetAdi": "Kız"
+                        }
+                    ]
+                },
+                "sort": [
+                    0.17333194192609502
+                ]
+            }
+        ]
+    },
+    "facets": {
+        "cinsiyet.cinsiyetAdi": {
+            "_type": "terms",
+            "missing": 0,
+            "total": 10175,
+            "other": 0,
+            "terms": [
+                {
+                    "term": "erkek",
+                    "count": 5589
+                },
+                {
+                    "term": "kız",
+                    "count": 3598
+                },
+                {
+                    "term": "üniseks",
+                    "count": 988
+                }
+            ]
+        },
+        "koken.kokenAdi": {
+            "_type": "terms",
+            "missing": 0,
+            "total": 8440,
+            "other": 0,
+            "terms": [
+                {
+                    "term": "türkçe",
+                    "count": 3607
+                },
+                {
+                    "term": "arapça",
+                    "count": 3330
+                },
+                {
+                    "term": "farsça",
+                    "count": 1125
+                },
+                {
+                    "term": "diğer",
+                    "count": 163
+                },
+                {
+                    "term": "kürtçe",
+                    "count": 47
+                },
+                {
+                    "term": "osmanlıca",
+                    "count": 31
+                },
+                {
+                    "term": "yunanca",
+                    "count": 26
+                },
+                {
+                    "term": "ibranice",
+                    "count": 17
+                },
+                {
+                    "term": "fransızca",
+                    "count": 14
+                },
+                {
+                    "term": "italyanca",
+                    "count": 9
+                },
+                {
+                    "term": "latince",
+                    "count": 8
+                },
+                {
+                    "term": "çerkezce",
+                    "count": 7
+                },
+                {
+                    "term": "çerkez",
+                    "count": 6
+                },
+                {
+                    "term": "moğolca",
+                    "count": 4
+                },
+                {
+                    "term": "lazca",
+                    "count": 4
+                },
+                {
+                    "term": "ermenice",
+                    "count": 4
+                },
+                {
+                    "term": "almanca",
+                    "count": 4
+                },
+                {
+                    "term": "bulgar",
+                    "count": 3
+                },
+                {
+                    "term": "azerice",
+                    "count": 3
+                },
+                {
+                    "term": "avrupa",
+                    "count": 3
+                },
+                {
+                    "term": "ingilizce",
+                    "count": 2
+                },
+                {
+                    "term": "hintçe",
+                    "count": 2
+                },
+                {
+                    "term": "bulgarca",
+                    "count": 2
+                },
+                {
+                    "term": "arapca",
+                    "count": 2
+                },
+                {
+                    "term": "çerkes",
+                    "count": 1
+                },
+                {
+                    "term": "zerdüşt",
+                    "count": 1
+                },
+                {
+                    "term": "zazaca",
+                    "count": 1
+                },
+                {
+                    "term": "türkce",
+                    "count": 1
+                },
+                {
+                    "term": "tatarca",
+                    "count": 1
+                },
+                {
+                    "term": "süryanice",
+                    "count": 1
+                },
+                {
+                    "term": "sanskritçe",
+                    "count": 1
+                },
+                {
+                    "term": "pomakça",
+                    "count": 1
+                },
+                {
+                    "term": "osmanlica",
+                    "count": 1
+                },
+                {
+                    "term": "macarca",
+                    "count": 1
+                },
+                {
+                    "term": "ispanyolca",
+                    "count": 1
+                },
+                {
+                    "term": "hint",
+                    "count": 1
+                },
+                {
+                    "term": "hind",
+                    "count": 1
+                },
+                {
+                    "term": "gürcüce",
+                    "count": 1
+                },
+                {
+                    "term": "azeri",
+                    "count": 1
+                },
+                {
+                    "term": "arap",
+                    "count": 1
+                },
+                {
+                    "term": "aile",
+                    "count": 1
+                }
+            ]
+        },
+        "kurandaGeciyorMu": {
+            "_type": "terms",
+            "missing": 0,
+            "total": 8199,
+            "other": 0,
+            "terms": [
+                {
+                    "term": "hayır",
+                    "count": 8171
+                },
+                {
+                    "term": "evet",
+                    "count": 28
+                }
+            ]
+        },
+        "harf": {
+            "_type": "terms",
+            "missing": 0,
+            "total": 8199,
+            "other": 0,
+            "terms": [
+                {
+                    "term": "a",
+                    "count": 762
+                },
+                {
+                    "term": "s",
+                    "count": 745
+                },
+                {
+                    "term": "t",
+                    "count": 584
+                },
+                {
+                    "term": "b",
+                    "count": 576
+                },
+                {
+                    "term": "m",
+                    "count": 554
+                },
+                {
+                    "term": "e",
+                    "count": 502
+                },
+                {
+                    "term": "n",
+                    "count": 399
+                },
+                {
+                    "term": "k",
+                    "count": 381
+                },
+                {
+                    "term": "h",
+                    "count": 360
+                },
+                {
+                    "term": "ö",
+                    "count": 274
+                },
+                {
+                    "term": "r",
+                    "count": 257
+                },
+                {
+                    "term": "y",
+                    "count": 256
+                },
+                {
+                    "term": "i",
+                    "count": 255
+                },
+                {
+                    "term": "ş",
+                    "count": 250
+                },
+                {
+                    "term": "g",
+                    "count": 249
+                },
+                {
+                    "term": "d",
+                    "count": 246
+                },
+                {
+                    "term": "c",
+                    "count": 205
+                },
+                {
+                    "term": "o",
+                    "count": 191
+                },
+                {
+                    "term": "u",
+                    "count": 190
+                },
+                {
+                    "term": "v",
+                    "count": 161
+                },
+                {
+                    "term": "z",
+                    "count": 155
+                },
+                {
+                    "term": "f",
+                    "count": 153
+                },
+                {
+                    "term": "p",
+                    "count": 144
+                },
+                {
+                    "term": "ç",
+                    "count": 106
+                },
+                {
+                    "term": "ü",
+                    "count": 99
+                },
+                {
+                    "term": "l",
+                    "count": 99
+                },
+                {
+                    "term": "ı",
+                    "count": 34
+                },
+                {
+                    "term": "j",
+                    "count": 11
+                },
+                {
+                    "term": "w",
+                    "count": 1
+                }
+            ]
+        },
+        "goruntulenmeSayisi": {
+            "_type": "range",
+            "ranges": [
+                {
+                    "from": 0.0,
+                    "to": 2000.0,
+                    "count": 41,
+                    "min": 56.0,
+                    "max": 1996.0,
+                    "total_count": 41,
+                    "total": 19083.0,
+                    "mean": 465.4390243902439
+                },
+                {
+                    "from": 2000.0,
+                    "to": 4000.0,
+                    "count": 4321,
+                    "min": 2008.0,
+                    "max": 3999.0,
+                    "total_count": 4321,
+                    "total": 12273265,
+                    "mean": 2840.3760703540847
+                },
+                {
+                    "from": 4000.0,
+                    "to": 5000.0,
+                    "count": 700,
+                    "min": 4001.0,
+                    "max": 4999.0,
+                    "total_count": 700,
+                    "total": 3112655.0,
+                    "mean": 4446.65
+                },
+                {
+                    "from": 5000.0,
+                    "to": 10000.0,
+                    "count": 1346,
+                    "min": 5000.0,
+                    "max": 9995.0,
+                    "total_count": 1346,
+                    "total": 9522448.0,
+                    "mean": 7074.627043090639
+                },
+                {
+                    "from": 10000.0,
+                    "to": 50000.0,
+                    "count": 1481,
+                    "min": 10001.0,
+                    "max": 49919.0,
+                    "total_count": 1481,
+                    "total": 30205338,
+                    "mean": 20395.231600270086
+                },
+                {
+                    "from": 50000.0,
+                    "to": 100000.0,
+                    "count": 189,
+                    "min": 50001.0,
+                    "max": 99924.0,
+                    "total_count": 189,
+                    "total": 12697779,
+                    "mean": 67184.01587301587
+                },
+                {
+                    "from": 100000.0,
+                    "to": 500000.0,
+                    "count": 115,
+                    "min": 100561.0,
+                    "max": 435465.0,
+                    "total_count": 115,
+                    "total": 20443439,
+                    "mean": 177769.0347826087
+                },
+                {
+                    "from": 500000.0,
+                    "count": 6,
+                    "min": 509604.0,
+                    "max": 1285237.0,
+                    "total_count": 6,
+                    "total": 4621642.0,
+                    "mean": 770273.6666666666
+                }
+            ]
+        },
+        "deger": {
+            "_type": "range",
+            "ranges": [
+                {
+                    "from": 1.0,
+                    "to": 2.0,
+                    "count": 672,
+                    "min": 1.0,
+                    "max": 1.875,
+                    "total_count": 672,
+                    "total": 753.3492063492063,
+                    "mean": 1.1210553665910807
+                },
+                {
+                    "from": 2.0,
+                    "to": 3.0,
+                    "count": 2203,
+                    "min": 2.0,
+                    "max": 2.966666666666667,
+                    "total_count": 2203,
+                    "total": 5431.5025402390975,
+                    "mean": 2.4655027418243747
+                },
+                {
+                    "from": 3.0,
+                    "to": 4.0,
+                    "count": 2378,
+                    "min": 3.0,
+                    "max": 3.9964028776978417,
+                    "total_count": 2378,
+                    "total": 8249.789890129983,
+                    "mean": 3.4692135786921714
+                },
+                {
+                    "from": 4.0,
+                    "to": 5.0,
+                    "count": 2045,
+                    "min": 4.0,
+                    "max": 4.9,
+                    "total_count": 2045,
+                    "total": 8683.800703817153,
+                    "mean": 4.246357312380026
+                }
+            ]
+        }
+    }
+}

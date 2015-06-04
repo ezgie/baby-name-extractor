@@ -1,4 +1,4 @@
-package persister.model;
+package babyNameExtractor.persister.model;
 
 public enum Gender {
     MALE("m"),

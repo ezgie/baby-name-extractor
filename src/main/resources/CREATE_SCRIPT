@@ -4,10 +4,10 @@
 
 CREATE TABLE firstnames
 (
-  id bigint NOT NULL,
+  id SERIAL NOT NULL,
   firstname character varying(255) DEFAULT NULL::character varying,
   origin character varying(255) DEFAULT NULL::character varying,
-  meaning character varying(255) DEFAULT NULL::character varying,
+  meaning text DEFAULT NULL::text,
   gender character(1) DEFAULT NULL::character(1),
   CONSTRAINT firstnames_pkey PRIMARY KEY (id)
 )

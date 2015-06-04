@@ -1,0 +1,477 @@
+{
+    "took": 157,
+    "timed_out": false,
+    "_shards": {
+        "total": 5,
+        "successful": 5,
+        "failed": 0
+    },
+    "hits": {
+        "total": 8206,
+        "max_score": null,
+        "hits": []
+    },
+    "facets": {
+        "cinsiyet.cinsiyetAdi": {
+            "_type": "terms",
+            "missing": 0,
+            "total": 10184,
+            "other": 0,
+            "terms": [
+                {
+                    "term": "erkek",
+                    "count": 5592
+                },
+                {
+                    "term": "kız",
+                    "count": 3603
+                },
+                {
+                    "term": "üniseks",
+                    "count": 989
+                }
+            ]
+        },
+        "koken.kokenAdi": {
+            "_type": "terms",
+            "missing": 0,
+            "total": 8447,
+            "other": 0,
+            "terms": [
+                {
+                    "term": "türkçe",
+                    "count": 3613
+                },
+                {
+                    "term": "arapça",
+                    "count": 3331
+                },
+                {
+                    "term": "farsça",
+                    "count": 1125
+                },
+                {
+                    "term": "diğer",
+                    "count": 163
+                },
+                {
+                    "term": "kürtçe",
+                    "count": 47
+                },
+                {
+                    "term": "osmanlıca",
+                    "count": 31
+                },
+                {
+                    "term": "yunanca",
+                    "count": 26
+                },
+                {
+                    "term": "ibranice",
+                    "count": 17
+                },
+                {
+                    "term": "fransızca",
+                    "count": 14
+                },
+                {
+                    "term": "italyanca",
+                    "count": 9
+                },
+                {
+                    "term": "latince",
+                    "count": 8
+                },
+                {
+                    "term": "çerkezce",
+                    "count": 7
+                },
+                {
+                    "term": "çerkez",
+                    "count": 6
+                },
+                {
+                    "term": "moğolca",
+                    "count": 4
+                },
+                {
+                    "term": "lazca",
+                    "count": 4
+                },
+                {
+                    "term": "ermenice",
+                    "count": 4
+                },
+                {
+                    "term": "almanca",
+                    "count": 4
+                },
+                {
+                    "term": "bulgar",
+                    "count": 3
+                },
+                {
+                    "term": "azerice",
+                    "count": 3
+                },
+                {
+                    "term": "avrupa",
+                    "count": 3
+                },
+                {
+                    "term": "ingilizce",
+                    "count": 2
+                },
+                {
+                    "term": "hintçe",
+                    "count": 2
+                },
+                {
+                    "term": "bulgarca",
+                    "count": 2
+                },
+                {
+                    "term": "arapca",
+                    "count": 2
+                },
+                {
+                    "term": "çerkes",
+                    "count": 1
+                },
+                {
+                    "term": "zerdüşt",
+                    "count": 1
+                },
+                {
+                    "term": "zazaca",
+                    "count": 1
+                },
+                {
+                    "term": "türkce",
+                    "count": 1
+                },
+                {
+                    "term": "tatarca",
+                    "count": 1
+                },
+                {
+                    "term": "süryanice",
+                    "count": 1
+                },
+                {
+                    "term": "sanskritçe",
+                    "count": 1
+                },
+                {
+                    "term": "pomakça",
+                    "count": 1
+                },
+                {
+                    "term": "osmanlica",
+                    "count": 1
+                },
+                {
+                    "term": "macarca",
+                    "count": 1
+                },
+                {
+                    "term": "ispanyolca",
+                    "count": 1
+                },
+                {
+                    "term": "hint",
+                    "count": 1
+                },
+                {
+                    "term": "hind",
+                    "count": 1
+                },
+                {
+                    "term": "gürcüce",
+                    "count": 1
+                },
+                {
+                    "term": "azeri",
+                    "count": 1
+                },
+                {
+                    "term": "arap",
+                    "count": 1
+                },
+                {
+                    "term": "aile",
+                    "count": 1
+                }
+            ]
+        },
+        "kurandaGeciyorMu": {
+            "_type": "terms",
+            "missing": 0,
+            "total": 8206,
+            "other": 0,
+            "terms": [
+                {
+                    "term": "hayır",
+                    "count": 8176
+                },
+                {
+                    "term": "evet",
+                    "count": 30
+                }
+            ]
+        },
+        "harf": {
+            "_type": "terms",
+            "missing": 0,
+            "total": 8206,
+            "other": 0,
+            "terms": [
+                {
+                    "term": "a",
+                    "count": 764
+                },
+                {
+                    "term": "s",
+                    "count": 745
+                },
+                {
+                    "term": "t",
+                    "count": 584
+                },
+                {
+                    "term": "b",
+                    "count": 579
+                },
+                {
+                    "term": "m",
+                    "count": 554
+                },
+                {
+                    "term": "e",
+                    "count": 503
+                },
+                {
+                    "term": "n",
+                    "count": 399
+                },
+                {
+                    "term": "k",
+                    "count": 381
+                },
+                {
+                    "term": "h",
+                    "count": 360
+                },
+                {
+                    "term": "ö",
+                    "count": 274
+                },
+                {
+                    "term": "r",
+                    "count": 257
+                },
+                {
+                    "term": "y",
+                    "count": 256
+                },
+                {
+                    "term": "i",
+                    "count": 256
+                },
+                {
+                    "term": "ş",
+                    "count": 250
+                },
+                {
+                    "term": "g",
+                    "count": 249
+                },
+                {
+                    "term": "d",
+                    "count": 246
+                },
+                {
+                    "term": "c",
+                    "count": 205
+                },
+                {
+                    "term": "o",
+                    "count": 191
+                },
+                {
+                    "term": "u",
+                    "count": 190
+                },
+                {
+                    "term": "v",
+                    "count": 161
+                },
+                {
+                    "term": "z",
+                    "count": 155
+                },
+                {
+                    "term": "f",
+                    "count": 153
+                },
+                {
+                    "term": "p",
+                    "count": 144
+                },
+                {
+                    "term": "ç",
+                    "count": 106
+                },
+                {
+                    "term": "ü",
+                    "count": 99
+                },
+                {
+                    "term": "l",
+                    "count": 99
+                },
+                {
+                    "term": "ı",
+                    "count": 34
+                },
+                {
+                    "term": "j",
+                    "count": 11
+                },
+                {
+                    "term": "w",
+                    "count": 1
+                }
+            ]
+        },
+        "goruntulenmeSayisi": {
+            "_type": "range",
+            "ranges": [
+                {
+                    "from": 0,
+                    "to": 2000,
+                    "count": 47,
+                    "min": 6,
+                    "max": 1987,
+                    "total_count": 47,
+                    "total": 18333,
+                    "mean": 390.06382978723406
+                },
+                {
+                    "from": 2000,
+                    "to": 4000,
+                    "count": 4307,
+                    "min": 2009,
+                    "max": 3997,
+                    "total_count": 4307,
+                    "total": 12262742,
+                    "mean": 2847.165544462503
+                },
+                {
+                    "from": 4000,
+                    "to": 5000,
+                    "count": 700,
+                    "min": 4001,
+                    "max": 4997,
+                    "total_count": 700,
+                    "total": 3109812,
+                    "mean": 4442.588571428571
+                },
+                {
+                    "from": 5000,
+                    "to": 10000,
+                    "count": 1351,
+                    "min": 5001,
+                    "max": 9995,
+                    "total_count": 1351,
+                    "total": 9535030,
+                    "mean": 7057.757216876388
+                },
+                {
+                    "from": 10000,
+                    "to": 50000,
+                    "count": 1490,
+                    "min": 10008,
+                    "max": 49912,
+                    "total_count": 1490,
+                    "total": 30367855,
+                    "mean": 20381.110738255033
+                },
+                {
+                    "from": 50000,
+                    "to": 100000,
+                    "count": 189,
+                    "min": 50000,
+                    "max": 99831,
+                    "total_count": 189,
+                    "total": 12682588,
+                    "mean": 67103.64021164022
+                },
+                {
+                    "from": 100000,
+                    "to": 500000,
+                    "count": 116,
+                    "min": 100093,
+                    "max": 435726,
+                    "total_count": 116,
+                    "total": 20577207,
+                    "mean": 177389.7155172414
+                },
+                {
+                    "from": 500000,
+                    "count": 6,
+                    "min": 509950,
+                    "max": 1285633,
+                    "total_count": 6,
+                    "total": 4624829,
+                    "mean": 770804.8333333334
+                }
+            ]
+        },
+        "deger": {
+            "_type": "range",
+            "ranges": [
+                {
+                    "from": 1,
+                    "to": 2,
+                    "count": 672,
+                    "min": 1,
+                    "max": 1.875,
+                    "total_count": 672,
+                    "total": 753.3492063492064,
+                    "mean": 1.121055366591081
+                },
+                {
+                    "from": 2,
+                    "to": 3,
+                    "count": 2210,
+                    "min": 2,
+                    "max": 2.966666666666667,
+                    "total_count": 2210,
+                    "total": 5449.002540239097,
+                    "mean": 2.465612009157962
+                },
+                {
+                    "from": 3,
+                    "to": 4,
+                    "count": 2378,
+                    "min": 3,
+                    "max": 3.9964028776978417,
+                    "total_count": 2378,
+                    "total": 8249.789890129983,
+                    "mean": 3.4692135786921714
+                },
+                {
+                    "from": 4,
+                    "to": 5,
+                    "count": 2045,
+                    "min": 4,
+                    "max": 4.9,
+                    "total_count": 2045,
+                    "total": 8683.800703817153,
+                    "mean": 4.246357312380026
+                }
+            ]
+        }
+    }
+}

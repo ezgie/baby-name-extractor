@@ -32,5 +32,5 @@
     </bean>
 
     <!-- This is the "business-logic" -->
-    <bean id="namePersistenceService" class="persister.service.NamePersistenceServiceImpl"/>
+    <bean id="namePersistenceService" class="babyNameExtractor.persister.service.NamePersistenceServiceImpl"/>
 </beans>
