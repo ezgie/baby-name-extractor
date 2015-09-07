@@ -19,10 +19,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Locale;
 
 @Service
 public class IsimArsiviExtractorImpl implements Extractor {
 
+    private static String LOCALE_TR = "tr";
     private Logger LOGGER = LoggerFactory.getLogger(IsimArsiviExtractorImpl.class);
 
     private NamePersistenceService namePersistenceService;
@@ -70,7 +72,7 @@ public class IsimArsiviExtractorImpl implements Extractor {
     private FirstName parseName(JsonObject name) {
         JsonObject nameDetails = name.getAsJsonObject("_source");
         FirstName firstName = new FirstName();
-        firstName.setFirstName(nameDetails.getAsJsonPrimitive("ad").getAsString());
+        firstName.setFirstName(nameDetails.getAsJsonPrimitive("ad").getAsString().toLowerCase(Locale.forLanguageTag(LOCALE_TR)));
         firstName.setGender(parseGender(nameDetails.getAsJsonPrimitive("intCinsiyet").getAsInt()));
         firstName.setMeaning(nameDetails.getAsJsonPrimitive("anlam").getAsString());
         firstName.setOrigin(parseOrigin(nameDetails));

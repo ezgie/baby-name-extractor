@@ -14,8 +14,8 @@
         <!-- These properties are replaced by Maven "resources" -->
         <property name="jdbcUrl" value="jdbc:postgresql://localhost:5432/BabyNameExtractor" />
         <property name="driverClass" value="org.postgresql.Driver" />
-        <property name="username" value="postgres" />
-        <property name="password" value="postgres" />
+        <property name="username" value="bebisisimleri" />
+        <property name="password" value="" />
     </bean>
 
     <!-- Configure Spring's transaction manager to use a DataSource -->

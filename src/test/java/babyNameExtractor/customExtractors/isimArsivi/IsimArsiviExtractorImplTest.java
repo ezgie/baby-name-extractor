@@ -13,7 +13,7 @@ import static org.junit.Assert.*;
 
 public class IsimArsiviExtractorImplTest {
 
-    private String FIRST_NAME_0 = "Ecrin";
+    private String FIRST_NAME_0 = "ecrin";
     private IsimArsiviExtractorImpl isimArsiviExtractor = new IsimArsiviExtractorImpl();
 
     @Test
