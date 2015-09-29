@@ -2,21 +2,16 @@
 
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:tx="http://www.springframework.org/schema/tx"
-       xsi:schemaLocation="
-            http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
-            http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.1.xsd">
+       xmlns:tx="http://www.springframework.org/schema/tx" xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
+            http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.1.xsd http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc.xsd">
 
     <!-- This is needed if you want to use the @Transactional annotation -->
     <tx:annotation-driven transaction-manager="transactionManager"/>
 
-    <bean id="dataSource" class="com.jolbox.bonecp.BoneCPDataSource" destroy-method="close">
-        <!-- These properties are replaced by Maven "resources" -->
-        <property name="jdbcUrl" value="jdbc:postgresql://localhost:5432/BabyNameExtractor" />
-        <property name="driverClass" value="org.postgresql.Driver" />
-        <property name="username" value="bebisisimleri" />
-        <property name="password" value="" />
-    </bean>
+    <jdbc:embedded-database id="dataSource" type="HSQL">
+        <jdbc:script location="classpath:schema.sql"/>
+    </jdbc:embedded-database>
 
     <!-- Configure Spring's transaction manager to use a DataSource -->
     <bean id="transactionManager"
