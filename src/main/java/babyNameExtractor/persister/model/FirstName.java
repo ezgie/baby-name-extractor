@@ -1,12 +1,15 @@
 package babyNameExtractor.persister.model;
 
 
-public class FirstName {
+import java.io.Serializable;
+
+public class FirstName implements Serializable{
     private Integer id;
     private String firstName;
     private Gender gender;
     private String origin;
     private String meaning;
+    private String source;
 
     public String getFirstName() {
         return firstName;
@@ -46,6 +49,14 @@ public class FirstName {
 
     public void setMeaning(String meaning) {
         this.meaning = meaning;
+    }
+
+    public String getSource() {
+        return source;
+    }
+
+    public void setSource(String source) {
+        this.source = source;
     }
 
     @Override

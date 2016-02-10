@@ -7,6 +7,7 @@ import com.mysema.query.sql.SQLQuery;
 import com.mysema.query.sql.SQLTemplates;
 import com.mysema.query.sql.dml.SQLDeleteClause;
 import com.mysema.query.sql.dml.SQLInsertClause;
+import com.mysema.query.sql.dml.SQLUpdateClause;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -50,26 +51,46 @@ public class NamePersistenceServiceImpl implements NamePersistenceService {
 
         LOGGER.debug("Persisting name '{}'", firstname);
         try(Connection connection = dataSource.getConnection()) {
-            new SQLInsertClause(connection, configuration, QFirstnames.firstnames)
-                    .columns(QFirstnames.firstnames.firstname,
-                            QFirstnames.firstnames.origin,
-                            QFirstnames.firstnames.meaning,
-                            QFirstnames.firstnames.gender)
-                    .values(firstname.getFirstName(),
-                            firstname.getOrigin(),
-                            firstname.getMeaning(),
-                            firstname.getGender().getTitle())
-                    .execute();
+
+            SQLQuery query = new SQLQuery(connection, configuration);
+
+            Tuple existingFirstname = query.from(firstnames).where(firstnames.firstname.eq(firstname.getFirstName())).singleResult(firstnames.all());
+            if(existingFirstname == null) { //Insert
+                insert(connection, firstname );
+            } else {//Update
+                update(connection, firstname, existingFirstname);
+            }
         } catch (SQLException e) {
             LOGGER.error(e.getMessage(), e);
         }
+    }
+
+    private void update(Connection connection, FirstName firstname, Tuple existingFirstname) {
+        if(! existingFirstname.get(firstnames.gender).equals(firstname.getGender().getTitle()) ){
+            new SQLUpdateClause(connection, configuration, QFirstnames.firstnames)
+                    .where(QFirstnames.firstnames.firstname.eq(firstname.getFirstName()))
+                    .set(firstnames.gender, Gender.UNISEX.getTitle())
+                    .execute();
+        }
+    }
+
+    private void insert(Connection connection, FirstName firstname) {
+        new SQLInsertClause(connection, configuration, QFirstnames.firstnames)
+                .columns(QFirstnames.firstnames.firstname,
+                        QFirstnames.firstnames.origin,
+                        QFirstnames.firstnames.meaning,
+                        QFirstnames.firstnames.gender)
+                .values(firstname.getFirstName(),
+                        firstname.getOrigin(),
+                        firstname.getMeaning(),
+                        firstname.getGender().getTitle())
+                .execute();
     }
 
     @Override
     public List<FirstName> findAll() {
         List<FirstName> firstNames = new ArrayList<>();
         try(Connection connection = dataSource.getConnection()){
-            QFirstnames firstnames = new QFirstnames("f");
             SQLQuery query = new SQLQuery(connection, configuration);
 
             List<Tuple> lastNames = query.from(firstnames)
